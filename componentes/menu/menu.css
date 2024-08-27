@@ -1,0 +1,77 @@
+
+
+html,body{
+    width:100vw;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+
+.logoo{
+    font-family: arial;
+    font-size:320%;
+    width:40%;
+    display:flex;
+    margin-left:10px;
+    color:rgb(84, 140, 84);
+    padding-bottom:10px;
+
+}
+
+.menuu{
+    /*border: 1px solid red;*/
+    width:100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px rgb(84, 140, 84) solid;
+    background-color:rgb(219, 255, 219);
+    
+}
+
+.menuu *{
+    z-index: 999;
+}
+
+nav{
+    height: calc(100% - 20px);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 25px;
+    margin-left: 27%;
+    gap:30px;
+    font-family:arial;
+    margin-top:20px;
+
+}
+
+a{
+    display:flex;
+    flex-direction: column;
+    font-family:arial;
+    font-size:25px;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+}
+
+footer a{
+    height:20px;
+    width:70px;
+    padding: 10px;
+    font-size:25px;
+    margin-left:10%;
+    margin-bottom:12px;
+
+}
+
+footer a:hover{
+    color: red;
+    font-size:26px;
+}
+
+a:hover{
+    color:rgb(84, 140, 84);
+}

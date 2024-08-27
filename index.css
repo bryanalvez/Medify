@@ -1,0 +1,95 @@
+html,body{
+    width:100vw;
+    height: 100%;
+    background-color: rgb(167, 255, 167);
+    align-items: center;
+}
+
+body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sign h1{
+    margin-left: 200px;
+    margin-top: 65px;
+    color: lightgreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: xx-large;
+    
+}
+
+.sign{
+    width:40%;
+    height: 400px;
+    padding: 10px;
+    margin-right: 10%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: rgb(228, 255, 246);
+    border: rgba(86, 86, 255, 0.153) solid;
+}
+
+.sign input{
+    width: 80%;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sign input:focus{
+    border: rgb(63, 63, 63) solid;
+    box-shadow: 0 0 0.5em rgb(99, 99, 99);
+    outline: 0;
+}
+
+button{
+    color: black;
+    background-color: lightblue;
+    border: 0;
+    border-radius: 7px;
+    margin: 20px;
+    width: 20%;
+    height: 10%;
+    margin-left: 200px;
+    font-size: medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover{
+    transition-duration: 0.5s;
+    background-color: rgb(92, 198, 233);
+}
+
+.part_left{
+    margin-left: 30px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width:400px;
+    height:400px;
+    border-radius:50%;
+    background: cyan;
+}
+
+.logo img{
+    width:100%;
+    height:400px;
+    border-radius:50%;
+}
+
+.erro{
+    color:red;
+    text-align:center;
+}

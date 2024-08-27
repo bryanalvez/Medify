@@ -1,0 +1,30 @@
+/*.relestoq{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    row-gap: 30px;
+    font-size:17px;
+    column-gap:2px;
+    
+}
+
+.med{
+    margin-left: 4%; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    margin-right:22px;
+    grid-row: 1/4;
+    margin-top:15px;
+    border-radius: 10px;
+}*/
+
+h1{
+    font-family: arial;
+    color:rgb(84, 140, 84);
+}
+
+/*hr{
+    border-bottom:2px rgb(84, 140, 84) solid;
+}*/
